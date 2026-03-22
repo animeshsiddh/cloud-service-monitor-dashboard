@@ -9,4 +9,6 @@ export default defineConfig({
     environment: 'node',
     pool: 'threads',
   },
+    base: "/cloud-service-monitor-dashboard/",
+
 })
