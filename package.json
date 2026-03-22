@@ -1,0 +1,41 @@
+{
+  "name": "monitordashboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^4.1.6",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@graphql-tools/mock": "^9.1.5",
+    "@graphql-tools/schema": "^10.0.31",
+    "@mui/icons-material": "^7.3.9",
+    "@mui/material": "^7.3.9",
+    "graphql": "^16.13.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "happy-dom": "^15.11.7",
+    "jsdom": "^27.0.1",
+    "vite": "^6.3.5",
+    "vitest": "^4.1.0"
+  }
+}
